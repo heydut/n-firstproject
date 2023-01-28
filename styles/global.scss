@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+
+  // nav ul {
+  //   list-style-type: none;
+  //   padding: 0px;
+
+  //   li {
+  //     display: inline;
+
+  //     &:not(:first-child) {
+  //       margin-left: 15px;
+  //     }
+  //   }
+  // }
+
+  a {
+    color: crimson;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
