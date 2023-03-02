@@ -12,7 +12,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  console.log("[PostPage] getStaticProps():", slug);
+
   const post = await getPost(slug);
   return {
     props: { post },
@@ -20,7 +20,7 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 function PostPage({ post }) {
-  console.log("[PostPage] render:", post);
+
   return (
     <>
       <Head>

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import "../styles/global.scss";
 
 const App = ({ Component, pageProps }) => {
-  console.log("[App] render");
+
   return (
     <>
       <Head>
